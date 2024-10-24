@@ -1,0 +1,48 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+button{
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.fahrenheit{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+
+.celsius{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: turquoise;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
